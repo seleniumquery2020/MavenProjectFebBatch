@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UserStory30072022(failed)">
+    <classes>
+      <class name="com.CounterSign.StepDefination.UserStory31072022">
+        <methods>
+          <include name="logout"/>
+          <include name="addAttachement"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="startApplication"/>
+        </methods>
+      </class> <!-- com.CounterSign.StepDefination.UserStory31072022 -->
+    </classes>
+  </test> <!-- UserStory30072022(failed) -->
+</suite> <!-- Failed suite [Suite] -->
